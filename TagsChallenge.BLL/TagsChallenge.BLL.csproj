@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dotnet-stop-words" Version="1.1.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TagsChallenge.DAL\TagsChallenge.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+</Project>
